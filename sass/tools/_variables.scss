@@ -2,9 +2,8 @@
    VARIABLES
    ========================================================================== */
 // Fonts
-$sans-serif-font: 'Lato', Helvetica, Arial, sans-serif;
-$serif-font: 'Noto Serif', Georgia, serif;
-$small-font: $sans-serif-font;
+$body-font: 'Proxima Nova', Helvetica, Arial, sans-serif;//400,400italic,800
+$header-font: 'Proxima Nova Soft', Georgia, sans-serif;//400,700
 
 
 //
@@ -29,7 +28,6 @@ $lime:  #01FF70;
 
 $yellow:  #FFDC00;
 $orange:  #FF851B;
-$red:     #FF4136;
 $fuchsia: #F012BE;
 $purple:  #B10DC9;
 $maroon:  #85144B;
@@ -39,7 +37,12 @@ $maroon:  #85144B;
 $white:  #fff;
 $silver: #ddd;
 $gray:   #aaa;
-$black:  #111;
+$darkgray: #424242;
+$black:  #212121;
+
+$lightred: #FFCDD2;
+$red: #F44336;
+$darkred: #D32F2F;
 
 
 //@SHANE remove these two when you get the chance
@@ -51,12 +54,13 @@ $darkgray: $gray;
 $background-color: $white;
 $primary-color:    $red;
 $secondary-color:  $blue;
-$text-color:       #424242;//$blue
-$link-color:       $maroon;
+$text-color:       $black;
+$link-color:       $blue;
 
 
 // Spacing
-$spacing-unit:    30px;
+$sm-spacing-unit: 10px;
+$spacing-unit:    20px;
 $lg-spacing-unit: $spacing-unit * 2; //60px
 $content-width: $spacing-unit * 20; //600px
 

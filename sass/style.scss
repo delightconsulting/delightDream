@@ -1,5 +1,5 @@
 /*
-    HTML Starter Kit CSS
+    delightLife CSS
 */
 
 /* Tools */
@@ -9,22 +9,22 @@
 
 /* Base */
 @import "base/normalize";
-@import "base/debug";
+// @import "base/debug";
 @import "base/global";
 @import "base/type";
 
 
 /* Layout */
 @import "layout/grid";
-@import "layout/layout";
-@import "layout/header";
-@import "layout/footer";
+// @import "layout/layout";
+// @import "layout/header";
+// @import "layout/footer";
 
 
 /* Modules */
 @import "modules/buttons";
-@import "modules/forms";
+// @import "modules/forms";
 
 
 /* Vendor */
-@import "vendor/animate";
+// @import "vendor/animate";
