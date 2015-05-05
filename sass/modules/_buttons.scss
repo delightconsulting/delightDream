@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+ol, ul {
+  margin-left: 1em;
+}
+
 
 .full-height {
   height: 100%;
@@ -18,7 +22,7 @@
 .vertical-center-inner {
   display: table-cell;
   vertical-align: middle;
-  // text-align: center;
+  text-align: center;
 }
 
 .line-through {
@@ -30,14 +34,15 @@ input[type="email"] {
   border-radius: 4px;
   background: $white;
   border: 0;
-  border: 2px solid $blue;
+  border: 2px solid $red;
   padding: 5px;
+  min-width: 300px;
 }
 
 
 
 .button {
-  background: $blue;
+  background: $red;
   border-radius: 4px;
   color: $white;
   text-transform: uppercase;
@@ -48,3 +53,27 @@ input[type="email"] {
     color: $white;
   }
 }
+
+h1 {
+  color: $darkred;
+  font-weight: 400;
+}
+
+
+.delight {
+  color: $red;
+  // font-weight: 900;
+}
+
+.life {
+  // font-weight: 300;
+}
+
+@media screen and (max-width:568px) {
+  .map-svg {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+

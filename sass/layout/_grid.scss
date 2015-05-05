@@ -97,8 +97,8 @@
       and doesn't provide the no-stacking-on-mobiles class */
    .grid:not(.no-stacking-on-mobiles) > .unit {
      width: 100% !important;
-     padding-left: $spacing-unit;
-     padding-right: $spacing-unit;
+     padding-left: $sm-spacing-unit;
+     padding-right: $sm-spacing-unit;
    }
    .unit .grid .unit {
      padding-left: 0px;
