@@ -1,0 +1,65 @@
+/* ==========================================================================
+   VARIABLES
+   ========================================================================== */
+// Fonts
+$sans-serif-font: 'Noto Sans', Helvetica, Arial, sans-serif;
+$serif-font: 'Noto Serif', Georgia, serif;
+$small-font: $sans-serif-font;
+
+
+//
+// COLOR VARIABLES
+//
+// - Cool
+// - Warm
+// - Gray Scale
+//
+
+// Cool
+
+$aqua:  #7FDBFF;
+$blue:  #0074D9;
+$navy:  #001F3F;
+$teal:  #39CCCC;
+$green: #2ECC40;
+$olive: #3D9970;
+$lime:  #01FF70;
+
+// Warm
+
+$yellow:  #FFDC00;
+$orange:  #FF851B;
+$red:     #FF4136;
+$fuchsia: #F012BE;
+$purple:  #B10DC9;
+$maroon:  #85144B;
+
+// Gray Scale
+
+$white:  #fff;
+$silver: #ddd;
+$gray:   #aaa;
+$black:  #111;
+
+
+//@SHANE remove these two when you get the chance
+$lightgray: $silver;
+$darkgray: $gray;
+
+
+// Color Aliases
+$background-color: $white;
+$primary-color:    $red;
+$secondary-color:  $blue;
+$text-color:       #424242;//$blue
+$link-color:       $maroon;
+
+
+// Spacing
+$spacing-unit:    30px;
+$lg-spacing-unit: $spacing-unit * 2; //60px
+$content-width: $spacing-unit * 20; //600px
+
+// Borders
+$border-radius: 4px;
+$border-width: 2px;
