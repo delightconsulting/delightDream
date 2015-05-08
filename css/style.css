@@ -637,8 +637,7 @@ ol, ul {
 
 .vertical-center-inner {
   display: table-cell;
-  vertical-align: middle;
-  text-align: left; }
+  vertical-align: middle; }
 
 .line-through {
   text-decoration: line-through; }
@@ -689,8 +688,5 @@ h1 {
   .map-svg {
     width: 150px;
     height: 150px; } }
-
-#iFrameResizer0 {
-  margin: 0 !important; }
 
 /* Vendor */
