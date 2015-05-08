@@ -617,7 +617,10 @@ hr {
 
 /* Modules */
 .no-margin {
-  margin: 0; }
+  margin: 0 !important; }
+
+.no-padding {
+  padding: 0 !important; }
 
 ol, ul {
   margin-left: 1em; }
@@ -635,7 +638,7 @@ ol, ul {
 .vertical-center-inner {
   display: table-cell;
   vertical-align: middle;
-  text-align: center; }
+  text-align: left; }
 
 .line-through {
   text-decoration: line-through; }
@@ -645,19 +648,35 @@ input[type="email"] {
   background: #fff;
   border: 0;
   border: 2px solid #F44336;
+  border-radius: 4px;
   padding: 5px;
-  min-width: 300px; }
+  min-width: 300px;
+  margin-left: 10px; }
+  input[type="email"]:focus {
+    outline: 2px solid #0074D9; }
 
 .button {
+  -webkit-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
   background: #F44336;
+  outline: 0;
+  border: 0;
   border-radius: 4px;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   padding: 6px 10px;
-  margin: 20px; }
+  margin-top: 20px; }
   .button:visited {
     color: #fff; }
+  .button:hover {
+    background: #D32F2F; }
+  .button:active {
+    -webkit-transform: translateY(1px);
+    -ms-transform: translateY(1px);
+    transform: translateY(1px); }
+  .button:focus {
+    outline: 2px solid #0074D9; }
 
 h1 {
   color: #D32F2F;
@@ -670,5 +689,8 @@ h1 {
   .map-svg {
     width: 150px;
     height: 150px; } }
+
+#iFrameResizer0 {
+  margin: 0 !important; }
 
 /* Vendor */

@@ -1,7 +1,9 @@
 .no-margin {
-  margin: 0;
+  margin: 0 !important;
 }
-
+.no-padding {
+  padding: 0 !important;
+}
 ol, ul {
   margin-left: 1em;
 }
@@ -22,7 +24,7 @@ ol, ul {
 .vertical-center-inner {
   display: table-cell;
   vertical-align: middle;
-  text-align: center;
+  text-align: left;
 }
 
 .line-through {
@@ -35,22 +37,40 @@ input[type="email"] {
   background: $white;
   border: 0;
   border: 2px solid $red;
+  border-radius: 4px;
   padding: 5px;
   min-width: 300px;
+  margin-left: 10px;
+  &:focus {
+    outline: 2px solid $blue;
+  }
 }
 
 
 
 .button {
+  @include transition(background-color);
   background: $red;
+  outline: 0;
+  border: 0;
   border-radius: 4px;
   color: $white;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   padding: 6px 10px;
-  margin: 20px;
+  margin-top: 20px;
+
   &:visited {
     color: $white;
+  }
+  &:hover {
+    background: $darkred;
+  }
+  &:active {
+    transform: translateY(1px);
+  }
+  &:focus {
+    outline: 2px solid $blue;
   }
 }
 
@@ -75,5 +95,3 @@ h1 {
     height: 150px;
   }
 }
-
-
