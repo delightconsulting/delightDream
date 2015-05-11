@@ -35,7 +35,7 @@ input[type="email"] {
   border-radius: 4px;
   background: $white;
   border: 0;
-  border: 2px solid $red;
+  border: 2px solid $primary;
   border-radius: 4px;
   padding: 5px;
   min-width: 300px;
@@ -49,7 +49,7 @@ input[type="email"] {
 
 .button {
   @include transition(background-color);
-  background: $red;
+  background: $primary;
   outline: 0;
   border: 0;
   border-radius: 4px;
@@ -63,7 +63,7 @@ input[type="email"] {
     color: $white;
   }
   &:hover {
-    background: $darkred;
+    background: $darkprimary;
   }
   &:active {
     transform: translateY(1px);
@@ -74,13 +74,13 @@ input[type="email"] {
 }
 
 h1 {
-  color: $darkred;
+  color: $darkprimary;
   font-weight: 400;
 }
 
 
 .delight {
-  color: $red;
+  color: $primary;
   // font-weight: 900;
 }
 
@@ -93,4 +93,9 @@ h1 {
     width: 150px;
     height: 150px;
   }
+}
+
+
+#iFrameResizer0 {
+  margin: 0 auto;
 }
