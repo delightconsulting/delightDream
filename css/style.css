@@ -646,7 +646,7 @@ input[type="email"] {
   border-radius: 4px;
   background: #fff;
   border: 0;
-  border: 2px solid #F44336;
+  border: 2px solid #6535F4;
   border-radius: 4px;
   padding: 5px;
   min-width: 300px;
@@ -657,7 +657,7 @@ input[type="email"] {
 .button {
   -webkit-transition: background-color 0.25s ease-in-out;
   transition: background-color 0.25s ease-in-out;
-  background: #F44336;
+  background: #6535F4;
   outline: 0;
   border: 0;
   border-radius: 4px;
@@ -669,7 +669,7 @@ input[type="email"] {
   .button:visited {
     color: #fff; }
   .button:hover {
-    background: #D32F2F; }
+    background: #572ED3; }
   .button:active {
     -webkit-transform: translateY(1px);
     -ms-transform: translateY(1px);
@@ -678,15 +678,18 @@ input[type="email"] {
     outline: 2px solid #0074D9; }
 
 h1 {
-  color: #D32F2F;
+  color: #572ED3;
   font-weight: 400; }
 
 .delight {
-  color: #F44336; }
+  color: #6535F4; }
 
 @media screen and (max-width: 568px) {
   .map-svg {
     width: 150px;
     height: 150px; } }
+
+#iFrameResizer0 {
+  margin: 0 auto; }
 
 /* Vendor */

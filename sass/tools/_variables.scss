@@ -44,16 +44,18 @@ $lightred: #FFCDD2;
 $red: #F44336;
 $darkred: #D32F2F;
 
-
-//@SHANE remove these two when you get the chance
-$lightgray: $silver;
-$darkgray: $gray;
+$lightindigo: #D8CCFF;
+$indigo: #6535F4;
+$darkindigo: #572ED3;
 
 
 // Color Aliases
+$lightprimary: $lightindigo;
+$primary:    $indigo;
+$darkprimary: $darkindigo;
+
 $background-color: $white;
-$primary-color:    $red;
-$secondary-color:  $blue;
+$secondary:  $blue;
 $text-color:       $black;
 $link-color:       $blue;
 
